@@ -40,3 +40,35 @@ nav .fenêtre a{
         margin-bottom: 20px;
     }
 }
+/* -------------------------- 
+------ HEADER
+-------------------------- */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('/Vitrine/images/bgheader.jpg');
+    background-size:cover ;
+    color: whitesmoke;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+header button{
+    padding : 10px 20px;
+    background-color:#fff ;
+    color: #000000;
+    border: none;
+    font-size: 20px;
+    font-family: 'Playfair Display',sans-serif;
+    outline:none;
+    cursor: pointer;
+}
