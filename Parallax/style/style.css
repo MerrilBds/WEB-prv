@@ -13,13 +13,13 @@ body {
   min-height: 1600px;
   background-color: #000000;
 }
-#first {
+#first{
   height: auto;
 }
-#last {
+#last{
   z-index: 10;
 }
-#text {
+#text{
   position: relative;
   color: whitesmoke;
   z-index: 2;
