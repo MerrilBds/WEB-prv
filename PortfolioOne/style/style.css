@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap');
+/* -------------------------- 
+------ GENERAL
+-------------------------- */
+*{
+    padding: 0;
+    margin :0;
+    font-family: 'Josefin Slab',sans-serif;
+    box-sizing: border-box;
+}
+/* -------------------------- 
+------ Hero class
+-------------------------- */
+.Hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/PortfolioOne/images/sepia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* -------------------------- 
+------ NAVBAR
+-------------------------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+/*--Logo class--*/
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
