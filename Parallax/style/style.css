@@ -13,13 +13,13 @@ body {
   min-height: 1600px;
   background-color: #000000;
 }
-#first{
+#first {
   height: auto;
 }
-#last{
+#last {
   z-index: 10;
 }
-#text{
+#text {
   position: relative;
   color: whitesmoke;
   z-index: 2;
@@ -62,4 +62,119 @@ section img {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+}
+/* -------------------------- 
+------ ab-text class
+-------------------------- */
+.ab-text {
+  padding: 100px 20%;
+}
+/* -------------------------- 
+------ heading class
+-------------------------- */
+.heading {
+  text-align: center;
+}
+.heading h2 {
+  font-size: 40px;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.heading p {
+  color: #9bacc4;
+  font-size: 15px;
+  line-height: 28px;
+}
+/* -------------------------- 
+------ container class
+-------------------------- */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1.7 rem;
+  align-items: center;
+  margin-top: 5rem;
+  justify-content: space-around;
+  margin-left: 210px;
+}
+/* -------------------------- 
+------ box class
+-------------------------- */
+.box {
+  height: 340px;
+  width: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: aliceblue;
+  transition: all 0.8s;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url("/Parallax/images/01.jpg") center center no-repeat;
+    background-size: cover;
+}
+.box1:hover{
+  transform: translateY(20px);
+  transition: all 0.5 ease;
+  opacity: 0.6;
+}
+.box2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url("/Parallax/images/02.jpg") center center no-repeat;
+    background-size: cover;
+}
+.box2:hover{
+  transform: translateY(20px);
+  transition: all 0.5 ease;
+  opacity: 0.6;
+}
+.box3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url("/Parallax/images/03.jpg") center center no-repeat;
+    background-size: cover;
+}
+.box3:hover{
+  transform: translateY(20px);
+  transition: all 0.5 ease;
+  opacity: 0.6;
+}
+.box4 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url("/Parallax/images/04.jpg") center center no-repeat;
+    background-size: cover;
+}
+.box4:hover{
+  transform: translateY(20px);
+  transition: all 0.5 ease;
+  opacity: 0.6;
 }
