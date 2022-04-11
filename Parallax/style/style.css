@@ -96,7 +96,7 @@ section img {
   align-items: center;
   margin-top: 5rem;
   justify-content: space-around;
-  margin-left: 210px;
+  margin-left: 110px;
 }
 /* -------------------------- 
 ------ box class
@@ -177,4 +177,18 @@ section img {
   transform: translateY(20px);
   transition: all 0.5 ease;
   opacity: 0.6;
+}
+.in{
+  position: absolute;
+  bottom: 20px;
+  color: whitesmoke;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.bottom{
+  text-align: center;
+  color: #abd5bd;
+  padding-top: 150px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
