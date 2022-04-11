@@ -94,7 +94,8 @@ h4 {
 /* -------------------------- 
 ------ Form
 -------------------------- */
-.newslatter form{
+
+ form{
     width: 380px;
     max-width: 100%;
     position: relative;
