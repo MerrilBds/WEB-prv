@@ -261,6 +261,9 @@ button:hover {
   border: 2px solid goldenrod;
   cursor: pointer;
 }
+/* -------------------------- 
+------ CONTACT
+-------------------------- */
 .contact-me {
   width: 100%;
   height: 290px;
@@ -290,4 +293,62 @@ button:hover {
   background-color: transparent;
   border: 2px solid goldenrod;
   cursor: pointer;
+}
+/* -------------------------- 
+------ FOOTER
+-------------------------- */
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1) {
+  font-size: 30px;
+  color: antiquewhite;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p:nth-child(2) {
+  font-size: 17px;
+  color: antiquewhite;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+/* -------------------------- 
+------ Social class
+-------------------------- */
+.social {
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1);
+    transition: 3s;
+}
+/* -------------------------- 
+------ end class
+-------------------------- */
+.end{
+    position: absolute;
+    color: goldenrod;
+    bottom: 35px;
+    font-size: 14px;
 }
