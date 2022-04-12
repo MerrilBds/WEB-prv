@@ -25,6 +25,7 @@
 ------ NAVBAR
 -------------------------- */
 nav {
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,4 +103,10 @@ button:hover {
   display: flex;
   width: 175px;
   align-items: center;
+}
+/* -------------------------- 
+------ main-img class
+-------------------------- */
+.main-img img {
+  width: 100%;
 }
