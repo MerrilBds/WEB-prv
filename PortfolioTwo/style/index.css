@@ -91,15 +91,15 @@ button {
   cursor: pointer;
   transition: width 0.4s;
 }
-button img{
-    display: none;
-    width: 35px;
+button img {
+  display: none;
+  width: 35px;
 }
-button:hover img{
-display: block;
+button:hover img {
+  display: block;
 }
-button:hover{
-    display: flex;
-    width: 175px;
-    align-items: center;
+button:hover {
+  display: flex;
+  width: 175px;
+  align-items: center;
 }
